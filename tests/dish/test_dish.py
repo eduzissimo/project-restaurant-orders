@@ -1,6 +1,3 @@
 from src.models.dish import Dish  # noqa: F401, E261, E501
-
-
-# Req 2
-def test_dish():
-    pass
+from src.models.ingredient import Ingredient, Restriction
+import pytest
